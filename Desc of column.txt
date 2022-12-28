@@ -1,0 +1,56 @@
+ 0   SNO                              15757 non-null  int64 		: ID, just ID 1, 2, 3, not important
+ 1   MRD No.                          15757 non-null  object		: Medical Records Department Number, for hospital reference to identify patient
+ 2   D.O.A                            15757 non-null  object		: Date of Admission
+ 3   D.O.D                            15757 non-null  object		: Date of Discharge
+ 4   AGE                              15757 non-null  int64 		: 
+ 5   GENDER                           15757 non-null  object		:
+ 6   RURAL                            15757 non-null  object		: Rural (R) or Urban (U)
+ 7   TYPE OF ADMISSION-EMERGENCY/OPD  15757 non-null  object		: Emergency (E) or OPD (O, Outpatient), only Emergency data will be used
+ 8   month year                       15757 non-null  object		: Admission month year
+ 9   DURATION OF STAY                 15757 non-null  int64 		: Total staying day
+ 10  duration of intensive unit stay  15757 non-null  int64 		: ICU staying day
+ 11  OUTCOME                          15757 non-null  object		: whether the patient DISCHARGE, EXPIRY (Die), DAMA (Discharged Against Medical Advice) at the end
+ 12  SMOKING                          15757 non-null  int64 		: 0 (No) or 1 (Yes)
+ 13  ALCOHOL                          15757 non-null  int64 		: 0 (No) or 1 (Yes)
+ 14  DM                               15757 non-null  int64 		: Diabetes Mellitus, 0 (No) or 1 (Yes)
+ 15  HTN                              15757 non-null  int64 		: Hypertension, 0 (No) or 1 (Yes)
+ 16  CAD                              15757 non-null  int64 		: Coronary Artery Disease, heart disease or 'heart attack', 0 (No) or 1 (Yes) 		[https://www.cdc.gov/heartdisease/coronary_ad.htm]
+ 17  PRIOR CMP                        15757 non-null  int64 		: Cardiomyopathy, heart disease that make it harder to pump blood, 0 (No) or 1 (Yes) 	[https://www.mayoclinic.org/diseases-conditions/cardiomyopathy/symptoms-causes/syc-20370709]
+ 18  CKD                              15757 non-null  int64 		: Chronic Kidney Disease, kidney failure, 0 (No) or 1 (Yes) 				[https://www.cdc.gov/kidneydisease/basics.html]
+ 19  HB                               15505 non-null  object		: Hemoglobin (Red blood cell), normal range: about 12 to 15, male is higher 		[https://www.healthline.com/health/normal-hemoglobin-levels#normal-ranges]
+ 20  TLC                              15471 non-null  object		: Total Lymphocyte Count (White blood cell), hard to explain, read the article 		[https://www.healthline.com/health/lymphocytes#results]
+ 21  PLATELETS                        15472 non-null  object		: Platelets, blood clot, normal: 150,000–450,000 (150 to 450 in dataset)		[https://www.medicalnewstoday.com/articles/322726#causes]
+ 22  GLUCOSE                          14894 non-null  object		: Blood sugar, mg/dl, normal: 100-200 							[https://mantracare.org/diabetes/overview/blood-glucose-levels/]
+ 23  UREA                             15516 non-null  object		: urine (kencing), mg/dl, normal: 6-24			 				[https://www.mayoclinic.org/tests-procedures/blood-urea-nitrogen/about/pac-20384821]
+ 24  CREATININE                       15510 non-null  object		: urine (kencing), mg/dl, normal: 0.74-1.35 (male), 0.59-1.04 (female) 			[https://www.mayoclinic.org/tests-procedures/creatinine-test/about/pac-20384646]
+ 25  BNP                              7316 non-null   object		: Brain Natriuretic Peptide, a type of protein made by heart, normal: <100		[https://www.mountsinai.org/health-library/tests/brain-natriuretic-peptide-test]
+ 26  RAISED CARDIAC ENZYMES           15757 non-null  int64 		: Enzymes release by heart damage due to lack of oxygen, 0 (No) or 1 (Yes) 		[https://my.clevelandclinic.org/health/articles/22115-cardiac-enzymes-cardiac-biomarkers]
+ 27  EF                               14252 non-null  object		: Ejection Fraction, percentage of blood leave heart, normal: 52-74			[https://www.healthline.com/health/ejection-fraction#measurement]
+ 28  SEVERE ANAEMIA                   15757 non-null  int64 		: lack of healthy red blood cell, 0 (No) or 1 (Yes)					[https://www.mayoclinic.org/diseases-conditions/anemia/symptoms-causes/syc-20351360]
+ 29  ANAEMIA                          15757 non-null  int64 		: lack of healthy red blood cell, 0 (No) or 1 (Yes)					[https://www.mayoclinic.org/diseases-conditions/anemia/symptoms-causes/syc-20351360]
+ 30  STABLE ANGINA                    15757 non-null  int64 		: chest pain due to reduced blood flow to heart, 0 (No) or 1 (Yes)			[https://www.healthline.com/health/stable-angina]
+ 31  ACS                              15757 non-null  int64 		: Acute coronary syndrome, sudden, reduced blood flow to heart, 0 (No) or 1 (Yes)	[https://www.mayoclinic.org/diseases-conditions/acute-coronary-syndrome/symptoms-causes/syc-20352136]
+ 32  STEMI                            15757 non-null  int64 		: ST-Elevation Myocardial Infarction, major arteries is block, 0 (No) or 1 (Yes)	[https://www.ecgmedicaltraining.com/what-is-a-stemi/]
+ 33  ATYPICAL CHEST PAIN              15757 non-null  int64 		: may be heart attack, 0 (No) or 1 (Yes)						[https://www.buoyhealth.com/learn/atypical-chest-pain#summary]
+ 34  HEART FAILURE                    15757 non-null  int64 		: heart does not pump blood as well as it should, 0 (No) or 1 (Yes)			[https://www.mayoclinic.org/diseases-conditions/heart-failure/symptoms-causes/syc-20373142]
+ 35  HFREF                            15757 non-null  int64 		: Heart Failure with Reduced EF, 0 (No) or 1 (Yes)					[https://www.heartfailurematters.org/understanding-heart-failure/what-is-ejection-fraction-hfref-and-hfpef/]		
+ 36  HFNEF                            15757 non-null  int64 		: Heart Failure with a Normal Ejection Fraction, 0 (No) or 1 (Yes)
+ 37  VALVULAR                         15757 non-null  int64 		: Valvular Heart Disease, valve in the heart is damaged, 0 (No) or 1 (Yes)		[https://www.cdc.gov/heartdisease/valvular_disease.htm]
+ 38  CHB                              15757 non-null  int64 		: Complete Heart Block, 0 (No) or 1 (Yes)						[https://www.ucsfhealth.org/conditions/complete-heart-block]
+ 39  SSS                              15757 non-null  int64 		: Sick Sinus Syndrome, heart no able to have normal heartbeat, 0 (No) or 1 (Yes)	[https://www.hopkinsmedicine.org/health/conditions-and-diseases/sick-sinus-syndrome]
+ 40  AKI                              15757 non-null  int64 		: Acute Kidney Injury, sudden kidney failure, 0 (No) or 1 (Yes)				[https://www.kidney.org/atoz/content/AcuteKidneyInjury]
+ 41  CVA INFRACT                      15757 non-null  int64 		: Cerebrovascular Accident, stroke, 0 (No) or 1 (Yes)					[https://www.fibricheck.com/what-is-a-stroke-or-cerebral-infarct/]
+ 42  CVA BLEED                        15757 non-null  int64 		: Haemorrhagic Stroke, bleed into brain, 0 (No) or 1 (Yes)				[https://www.stroke.org.uk/what-is-stroke/types-of-stroke/haemorrhagic-stroke]
+ 43  AF                               15757 non-null  int64 		: Atrial Fibrillation, irregular heartbeat lead to heart failure, 0 (No) or 1 (Yes)	[https://www.heart.org/en/health-topics/atrial-fibrillation/what-is-atrial-fibrillation-afib-or-af]
+ 44  VT                               15757 non-null  int64 		: Ventricular tachycardia, heart rhythm problem, 0 (No) or 1 (Yes)			[https://www.mayoclinic.org/diseases-conditions/ventricular-tachycardia/symptoms-causes/syc-20355138]
+ 45  PSVT                             15757 non-null  int64 		: Paroxysmal Supraventricular Tachycardia, faster abnormal heart beat, 0 (No) or 1 (Yes)[https://www.healthline.com/health/paroxysmal-supraventricular-tachycardia-psvt]
+ 46  CONGENITAL                       15757 non-null  int64 		: any disease present or before birth, 0 (No) or 1 (Yes)				[https://www.verywellhealth.com/how-is-congenital-defined-2224217]
+ 47  UTI                              15757 non-null  int64 		: Urinary tract infection, urine system infection, 0 (No) or 1 (Yes)			[https://www.mayoclinic.org/diseases-conditions/urinary-tract-infection/symptoms-causes/syc-20353447]
+ 48  NEURO CARDIOGENIC SYNCOPE        15757 non-null  int64 		: fainting occurs when body overreacts to trigger like too angry, 0 (No) or 1 (Yes)	[https://www.baptisthealth.com/care-services/conditions-treatments/neurocardiogenic-syncope]
+ 49  ORTHOSTATIC                      15757 non-null  int64 		: Orthostatic (postural) hypotension, 0 (No) or 1 (Yes)					[https://www.mayoclinic.org/diseases-conditions/orthostatic-hypotension/symptoms-causes/syc-20352548]
+ 50  INFECTIVE ENDOCARDITIS           15757 non-null  int64 		: infection in the heart valves, 0 (No) or 1 (Yes)					[https://www.healthline.com/health/infectious-endocarditis]
+ 51  DVT                              15757 non-null  int64 		: Deep vein thrombosis, blood clot in deep veins (usually leg), 0 (No) or 1 (Yes)	[https://www.mayoclinic.org/diseases-conditions/deep-vein-thrombosis/symptoms-causes/syc-20352557]
+ 52  CARDIOGENIC SHOCK                15757 non-null  int64 		: shock due to cardiac (heart) reasons, 0 (No) or 1 (Yes)				[https://www.mayoclinic.org/diseases-conditions/cardiogenic-shock/symptoms-causes/syc-20366739]
+ 53  SHOCK                            15757 non-null  int64 		: systolic blood pressure < 90 mmHg, 0 (No) or 1 (Yes)					[https://www.healthline.com/health/shock]
+ 54  PULMONARY EMBOLISM               15757 non-null  int64 		: blood clot that block blood to lung, 0 (No) or 1 (Yes)				[https://www.mayoclinic.org/diseases-conditions/pulmonary-embolism/symptoms-causes/syc-20354647]
+ 55  CHEST INFECTION                  15757 non-null  object		: infection in airways and lung, 0 (No) or 1 (Yes)					[https://patient.info/chest-lungs/chest-infection]
