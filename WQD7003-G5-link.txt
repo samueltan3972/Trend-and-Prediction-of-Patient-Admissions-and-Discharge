@@ -1,0 +1,14 @@
+Project Title: Trending and Prediction of patient admissions and discharge in Emergency Department
+
+22050480 | Lee Tse Lyn
+S2190151 | Wee Hin Sheik
+17147394 | Fathia Farhana bt Agusalim
+S2196123 | Samuel Tan Joo Woon
+S2179520 | Khai Yao Wong
+
+Link:
+https://365umedumy.sharepoint.com/:f:/s/WDQ7003G5/EowRFgOy-ilFoSdSGKcLCHcBN76xg_ObQ70pkF8KauxgRA?e=jz5283
+https://samueltan3972.github.io/WQD7003-DataAnalytics.html
+
+(In case the sharepoint link not able to work):
+https://drive.google.com/drive/folders/1hrMjCp64Hh9RmMiTMPq24fs7dnDBNkbD?usp=sharing
